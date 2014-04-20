@@ -6,18 +6,29 @@ Author: Shivagangadhar Kolli
 List of Programs and Description : http://bit.ly/1pjwcO5
 
 Notes : 
+
 Compiler Used : GNU C Compiler 
+
 Editor Used : G editor 
+
 Operating System: Fedora 18
 
-Tips to run the programs
-1. To create a C file
+Instructions to run & execute C programs in FEDORA 18:
+
+1. Open TERMINAL
+
+    Applications -> SystemTools -> Terminal
+
+2. To create a C file
+
     $ gedit filename.c
-2. To compile & check the errors
+    
+3. To compile & check the errors
+    
     $ cc filename.c
-3. To Check results/output
+
+4. To Check results/output
+
     $ ./a.out
 
-
-Thank you,
 Happy coding
