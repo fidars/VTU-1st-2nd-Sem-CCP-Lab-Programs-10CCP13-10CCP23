@@ -1,7 +1,7 @@
 VTU-1st-2nd-Sem-CCP-Lab-Programs
 ===============================
 
-CCP Lab programs for VTU 1st/2nd Sem 10CSL
+CCP Lab programs for VTU 1st/2nd Sem 10CCP13 / 10CCP23
 
 PART-A
 
