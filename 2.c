@@ -20,3 +20,4 @@ void main()
 	printf("\n The LCM of %d and %d = %d",p,q,lcm);			//LCM
 	printf("\n The GCD of %d and %d = %d",p,q,gcd);			//GCD
 }
+
