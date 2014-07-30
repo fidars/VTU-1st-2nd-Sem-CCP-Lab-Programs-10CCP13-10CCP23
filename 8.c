@@ -3,7 +3,7 @@ host machine. */
 
 
 #include<stdio.h>
-void main()
+int main()
 {
 	int var = -1,wordlen=0;
 	while (var)
@@ -12,5 +12,6 @@ void main()
 		var <<= 1;
 	}
 	printf(" The Word length of this Host Machine is %d Bits", wordlen);
+	return 0;
 }
 
