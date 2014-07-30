@@ -15,19 +15,19 @@ Operating System: Fedora 18
 
 Instructions to run & execute C programs in FEDORA 18:
 
-1. Open TERMINAL
+Open TERMINAL
 
     Applications -> SystemTools -> Terminal
 
-2. To create a C file
+To create a C file
 
     $ gedit filename.c
-    
-3. To compile & check the errors
-    
+
+To compile & check the errors
+
     $ cc filename.c
 
-4. To Check results/output
+To Check results/output
 
     $ ./a.out
 
