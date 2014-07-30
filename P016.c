@@ -7,7 +7,7 @@ return value from the function matchany (s1, s2). */
 #include <stdio.h>
 #include <string.h>
 int matchany(char s1[ ], char s2[ ]);
-void main()
+int main()
 {
 	char str1[20],str2[20];
 	int x;
@@ -20,6 +20,7 @@ void main()
 		printf("No character matching\n");
 	else
 		printf("The position is %d and character is %c\n",x+1,str1[x]);
+	return 0;
 }
 int matchany(char s1[10], char s2[10])
 {
