@@ -4,7 +4,7 @@ array C of N integer element.*/
 
 #include<stdio.h>
 #include<omp.h>
-void main()
+int main()
 {
 	int i,j,k,n,a[10],b[10],c[10];
 	printf("enter the size of an arrays\n");
@@ -21,4 +21,6 @@ void main()
 		c[i]= a[i]+b[i];
 		printf ("c[%d]=%d,threadno=%d\n",i,c[i],omp_get_thread_num);
 	}
+
+	return 0;
 }
