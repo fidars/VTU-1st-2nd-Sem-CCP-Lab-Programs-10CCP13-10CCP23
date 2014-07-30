@@ -4,7 +4,7 @@ main with different values for x and n and print the results with suitable headi
 
 
 #include<stdio.h>
-void main ( )
+int main ( )
 {
 	unsigned int ans,x,n;
 	printf("enter x and n values\n");
@@ -12,6 +12,7 @@ void main ( )
 	ans=rightrot(x,n);
 	printf("\nThe value after rotating %d bit is : ",n);
 	printf("%d",ans);
+	return 0;
 }
 int rightrot(unsigned int x,unsigned int n)
 {
