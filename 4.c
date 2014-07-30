@@ -5,7 +5,7 @@ the coefficients using Horner’s method. */
 
 
 #include <stdio.h>
-void main()
+int main()
 {
 	int n,i,x,a[10],poly=0;
 	printf("\n Enter the degree of the polynomial : ");
@@ -23,4 +23,6 @@ void main()
 		poly = poly* x+a[i];
 	}
 	printf("\n The sum of polynomial = %d",poly);
+
+	return 0;
 }
