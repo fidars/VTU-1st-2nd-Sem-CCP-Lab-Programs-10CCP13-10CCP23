@@ -3,7 +3,7 @@ quadratic equation, for non-zero coefficients. */
 
 #include <stdio.h>					//standard input output header used by printf & scanf
 #include <math.h>					//used for mathematical functions like fabs()
-void main()
+int main()
 {
 	int a,b,c;
 	float d,x1,x2,r;
@@ -38,5 +38,6 @@ void main()
 			printf("\n The roots are:\n 1) %f +i %f \t\t\n 2) %f –i %f ",x1,x2,x1,x2);
 		}
 	}
+	return 0;
 }
 
