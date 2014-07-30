@@ -4,7 +4,7 @@ number and report success or failure in the form of a suitable message.*/
 
 
 #include <stdio.h>
-void main()
+int main()
 {
 	int n,i,a[10],key,low,high,mid,flag=0;
 	printf("\n Enter the no. of elements : ");
@@ -33,4 +33,6 @@ void main()
 		printf("\n Successful Search ");
 	else
 		printf("\n Unsuccessful Search");
+	
+	return 0;
 }
