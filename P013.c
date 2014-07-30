@@ -12,7 +12,7 @@ int prime(int n)
 			return 0;
 	return 1;
 }
-void main()
+int main()
 {
 	int n,p;
 	printf("enter the no\n");
@@ -22,4 +22,5 @@ void main()
 		printf("The given no is prime\n");
 	else
 		printf("The given no is not prime\n");
+        return 0;
 }
