@@ -7,7 +7,7 @@ header file <float.h>. Print the value returned by the Mathematical function exp
 #include<stdio.h>
 #include <float.h>
 #include <math.h>
-void main()
+int main()
 {
 	int i;
 	float x,sum,fact,term;
@@ -25,4 +25,6 @@ void main()
 	}
 	printf("\n\nThe Calculated value of e^% .3f = %f",x,sum);
 	printf("\n\nThe Library Function Value of e^%.3f = %f",x,exp(x));
+
+	return 0;
 }
