@@ -3,7 +3,7 @@ and check whether it is a palindrome or not. Output the given number with suitab
 message.*/
 
 #include <stdio.h>
-void main()
+int main()
 {
 	int n,rev=0,rem,a;
 	printf("Enter a number : ");
@@ -24,4 +24,5 @@ void main()
 		printf("\n The given Number %d is Palindrome",a);
 	else
 	printf("\n The given Number %d is not Palindrome",a);
+
 }
