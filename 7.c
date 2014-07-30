@@ -4,7 +4,7 @@ print both the given array and the sorted array with suitable headings.*/
 
 
 #include <stdio.h>
-void main()
+int main()
 {
 	int n,i,j,a[10],b[10],temp;
 	printf("\n Enter the no. of elements : ");
@@ -33,4 +33,6 @@ void main()
 	printf("\n The Sorted elements are ");
 	for(i = 0 ; i < n ; i++)
 	printf("%d \n",a[i]);
+	
+	return 0;
 }
