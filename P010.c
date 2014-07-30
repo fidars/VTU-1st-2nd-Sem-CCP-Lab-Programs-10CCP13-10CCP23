@@ -8,7 +8,7 @@ can all be less than or equal to 3)*/
 
 
 #include <stdio.h>
-void main()
+int main()
 {
 	int a[10][10],b[10][10],c[10][10];
 	int m,n,p,q,i,j,k;
@@ -69,4 +69,6 @@ void main()
 	}
 	else
 		printf("Matrix A & B is not multiplicable");
+
+	return 0;
 }
