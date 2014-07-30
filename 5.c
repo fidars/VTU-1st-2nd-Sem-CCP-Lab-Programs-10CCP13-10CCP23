@@ -5,7 +5,7 @@ string of one or more blanks by a single blank.*/
 
 #include <stdio.h>
 #include<string.h>
-void main()
+int main()
 {
 	char c[50];
 	int i;
@@ -19,4 +19,5 @@ void main()
 			i++;
 		printf("%c", c[i]);
 	}
+	return 0;
 }
