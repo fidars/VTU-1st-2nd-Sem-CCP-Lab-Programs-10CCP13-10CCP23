@@ -17,7 +17,7 @@ void reverse(char s[])
 	}
 	printf("the reversed string is = %s",s);
 }
-void main()
+int main()
 {
 	char s[10];
 	int i;
@@ -25,4 +25,5 @@ void main()
 	scanf("%s",s);
 	printf("the original string is=%s\n",s);
 	reverse(s);
+        return 0;
 }
