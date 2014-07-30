@@ -2,7 +2,7 @@
 GCD and LCM of two integers and to output the results along with the given integers. */
 
 #include<stdio.h>
-void main()
+int main()
 {
 	int m,n,p,q,gcd,lcm,rem;
 	printf("Enter two numbers : ");
@@ -19,5 +19,7 @@ void main()
 	lcm = (p * q) / gcd;
 	printf("\n The LCM of %d and %d = %d",p,q,lcm);			//LCM
 	printf("\n The GCD of %d and %d = %d",p,q,gcd);			//GCD
+
+	return 0;
 }
 
